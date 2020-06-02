@@ -1,9 +1,9 @@
-<!--<h1 align="center">
-    <img alt="ECOleta" title="#ecoleta" src="assets/logo.svg" width="250px" />
-</h1>-->
+<h1 align="center">
+    <img alt="Ecoleta" title="#ecoleta" src="assets/logo.png" width="250px" />
+</h1>
 
 <h2 align="center">
-  Next Level Week: ECOleta
+  Next Level Week: Ecoleta
 </h2>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EricSchmiele/ecoleta">
@@ -34,9 +34,9 @@
 
 <br>
 
-<!--<p align="center">
-  <img alt="Frontend" src="assets/screen.png" width="50%">
-</p>-->
+<p align="center">
+  <img alt="Frontend" src="assets/screen.jpeg" width="50%">
+</p>
 
 
 ## About
