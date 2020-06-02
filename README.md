@@ -3,7 +3,7 @@
 </h1>-->
 
 <h2 align="center">
-  Next Level Week
+  Next Level Week: ECOleta
 </h2>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EricSchmiele/ecoleta">
@@ -23,8 +23,8 @@
 
 <p align="center">
   <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <!--<a href="#installing-the-application">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#running-the-application">Running</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#installing-the-application">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!--<a href="#running-the-application">Running</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#testing">Testing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;-->
   <a href="#built-with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <!--<a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;-->
@@ -43,15 +43,15 @@
 
 A project developed during the Next Level Week: a platform to help finding locations for selective collection of items such as batteries, lamps and recyclables.
 
-<!--## Installing the application
+## Installing the application
 
 In order to install the application dependencies, after dowloading or branching you should run the terminal code `npm install` in the following folders:
 
-* <u>br.com.bethehero/backend/</u>
-* <u>br.com.bethehero/frontend/</u>
-* <u>br.com.bethehero/mobile/</u>
+* <u>ecoleta/server/</u>
+* <u>ecoleta/web/</u>
+<!--* <u>br.com.bethehero/mobile/</u>-->
 
-## Running the application
+<!--## Running the application
 
 On separate terminal tabs, run the code `npm start` on the folders:
 
@@ -75,8 +75,8 @@ Back end:
 
 * [Node.js](https://nodejs.org/en/)
 * [React](https://reactjs.org)
-* [React Native](https://facebook.github.io/react-native/)
-* [Expo](https://expo.io/)
+<!--* [React Native](https://facebook.github.io/react-native/)
+* [Expo](https://expo.io/)-->
 
 <!--
 ## Layout
