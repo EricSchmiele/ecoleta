@@ -51,6 +51,8 @@ In order to install the application dependencies, after dowloading or branching 
 * <u>ecoleta/web/</u>
 <!--* <u>br.com.bethehero/mobile/</u>-->
 
+To install the database: run the code `npm run knex:migrate` in the folder <u>ecoleta/server/</u>
+
 <!--## Running the application
 
 On separate terminal tabs, run the code `npm start` on the folders:
