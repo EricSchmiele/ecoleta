@@ -24,8 +24,8 @@
 <p align="center">
   <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#installing-the-application">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <!--<a href="#running-the-application">Running</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#testing">Testing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;-->
+  <a href="#running-the-application">Running</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!--<a href="#testing">Testing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;-->
   <a href="#built-with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <!--<a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;-->
   <a href="#contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -49,21 +49,23 @@ In order to install the application dependencies, after dowloading or branching 
 
 * <u>ecoleta/server/</u>
 * <u>ecoleta/web/</u>
-<!--* <u>br.com.bethehero/mobile/</u>-->
+* <u>ecoleta/mobile/</u>
 
 Initializing database: run the code `npm run knex:migrate` (to create the database) and `npm run knex:seed` (to insert the initial data) both in the folder <u>ecoleta/server/</u>.
 
-<!--## Running the application
+Change the IP in the following folders to your machine IP so that the backend data can be accessed: <u>ecoleta/server/src/controllers/ItemsController.ts</u> and <u>ecoleta/mobile/src/services/api.ts</u>
+
+## Running the application
 
 On separate terminal tabs, run the code `npm start` on the folders:
 
-* <u>br.com.bethehero/backend/</u>
-* <u>br.com.bethehero/frontend/</u>
-* <u>br.com.bethehero/mobile/</u>
+* <u>ecoleta/server/</u>
+* <u>ecoleta/web/</u>
+* <u>ecoleta/mobile/</u>
 
-Aditionally, in order to run the mobile application, install the <strong>Expo</strong> app on your smart phone from your standard app store and read the QR code that will be generated after running the terminal code in the <u>br.com.bethehero/mobile/</u> folder.
+Aditionally, in order to run the mobile application, install the <strong>Expo</strong> app on your smart phone from your standard app store and read the QR code that will be generated after running the terminal code in the <u>ecoleta/mobile/</u> folder.
 
-## Testing
+<!--## Testing
 
 All tests can be run using <strong>supertest</strong> with the following line in terminal: `npm test` 
 
@@ -77,8 +79,8 @@ Back end:
 
 * [Node.js](https://nodejs.org/en/)
 * [React](https://reactjs.org)
-<!--* [React Native](https://facebook.github.io/react-native/)
-* [Expo](https://expo.io/)-->
+* [React Native](https://facebook.github.io/react-native/)
+* [Expo](https://expo.io/)
 
 <!--
 ## Layout
